@@ -1,4 +1,4 @@
-#include "../include/personnage_affichage.h"
+#include "personnages.h"
 
 Personnage persos[12] = {
     {"(1)  Luffy", 2, 4, 3, 2, 4, 4},
