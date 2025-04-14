@@ -21,9 +21,8 @@ typedef struct {
     char* crit_name2;
     float crit2;
     float crit_conso2;
-} Player;
+} combattant;
 
-// Déclaration des joueurs (vous pouvez plus tard les charger depuis un fichier)
-extern Player p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12;
+extern combattant p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12;
 
 #endif
