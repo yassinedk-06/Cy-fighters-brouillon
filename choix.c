@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../assets/couleurs.h"
 
 int demanderChoixDansIntervalle(const char *texte, int min, int max, const char *couleur) {
     int choix = 0;
