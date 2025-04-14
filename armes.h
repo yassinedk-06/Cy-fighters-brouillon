@@ -5,6 +5,6 @@
 
 typedef enum {Bouclier, Epee, Mitraillette, Baton, Medkit, Eclair, None} Assets;
 
-void atout(Player* p, Assets a);
+void atout(combattant* p, Assets a);
 
 #endif
