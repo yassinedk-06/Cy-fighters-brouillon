@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../include/assets.h"
+#include "armes.h"
 
-void atout(Player* p, Assets a) {
+void atout(combattant* p, Assets a) {
     switch(a) {
         case Bouclier:
             p->def += 0.1;
