@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "personnages.h"
-#include "utils.h"
-#include "couleurs.h"
+#include "choix.h"
+
+#define ROUGE   "\033[1;31m"
+#define VERT    "\033[1;32m"
+#define JAUNE   "\033[1;33m"
+#define BLEU    "\033[1;36m"
+#define RESET   "\033[0m"
 
 void afficherTitre() {
     system("clear");
