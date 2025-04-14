@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define ROUGE   "\033[1;31m"
+#define VERT    "\033[1;32m"
+#define JAUNE   "\033[1;33m"
+#define BLEU    "\033[1;36m"
+#define RESET   "\033[0m"
+#include "choix.h"
 
 int demanderChoixDansIntervalle(const char *texte, int min, int max, const char *couleur) {
     int choix = 0;
